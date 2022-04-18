@@ -8,7 +8,7 @@
     <table class="table">
         <?php foreach($administradores as $administrador): ?>
             <tr>
-                <td><?= anchor("administrador/{$administrador['id']}") ?></td>
+                <td><?= anchor("administrador/mostra/{$administrador['id']}") ?></td>
                 <td><?= $administrador["login"] ?></td>
                 <td><?php 
                         echo form_open("administrador/deleta");

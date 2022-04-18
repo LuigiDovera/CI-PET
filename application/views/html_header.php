@@ -1,7 +1,7 @@
 <?php echo doctype('xhtml1-trans') ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>Ingresso Online</title>
+		<title>Minicurso PET</title>
 		<?php
 		$meta = array(
 			array('name' => 'robots', 'content' => 'no-cache'),
