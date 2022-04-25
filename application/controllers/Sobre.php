@@ -14,9 +14,9 @@ class Sobre extends CI_Controller {
 		$this->load->standardTemplate('participantes');
 	}
 
-	public function numero($id)
+	public function numero($numero)
 	{	
-		$dados = array('id' => $id);
-		$this->load->standardTemplate('numero', $dados);
+		$dados = array('numero' => $numero);
+		$this->load->admTemplate('numero', $dados);
 	}
 }
