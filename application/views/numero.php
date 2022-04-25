@@ -1,1 +1,2 @@
-<h2> <?php echo $id ?> </h2>
+<h2> <?php echo $numero ?> </h2>
+
